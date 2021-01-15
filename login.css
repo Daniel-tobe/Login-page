@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: helvetica;
+	background-color: #5c4688;
+}
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 200px;
+	height: 100px;
+	margin-left: 100px;
+}
+fieldset{
+	padding: 3rem;
+	padding-top: 2rem;
+	margin-top: 2rem;
+	border: none;
+	background-color: #684ba196;
+}
+legend{
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+input{
+	margin: 1em;
+	padding: 5px;
+	height: 3em;
+	width: 27em;
+	transform: scale(1);
+	border-radius: 0.3em;
+	border: none;
+	outline:none;
+}
+input:hover, input:focus{
+	transform: scale(1.1);
+	transition-delay: 0.4s; 
+	border: none;
+	box-shadow: 2px 8px 8px 0 rgba(0,0,0,0.9);
+	outline:none;
+
+}
+.sub{
+	/* mouse-events: none; */
+	cursor: pointer;
+}
+.sub input{
+	border: none;
+	background-color: white;
+	border-radius: 0.5em;
+}
+legend{
+	font-size: 26px;
+	text-align: center;
+}
